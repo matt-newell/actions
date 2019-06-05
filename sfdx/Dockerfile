@@ -9,7 +9,7 @@ LABEL homepage="http://github.com/actions/sfdx"
 LABEL maintainer="Dev <dev@clearbit.com>"
 LABEL com.github.actions.name="GitHub Action for SFDX"
 LABEL com.github.actions.description="Wraps the SFDX CLI to enable common create/deploy commands."
-LABEL com.github.actions.icon="cloud"
+LABEL com.github.actions.icon="cloud-lightning"
 LABEL com.github.actions.color="blue"
 
 # ARG GITHUB_TOKEN
