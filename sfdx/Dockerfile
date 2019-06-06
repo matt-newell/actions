@@ -3,10 +3,10 @@ FROM node:10
 
 LABEL name="sfdx-action"
 LABEL version="1.0.0"
-LABEL repository="http://github.com/actions/sfdx"
-LABEL homepage="http://github.com/actions/sfdx"
+LABEL repository="http://github.com/matt-newell/actions/sfdx"
+LABEL homepage="http://github.com/matt-newell/actions/sfdx"
 
-LABEL maintainer="Dev <dev@clearbit.com>"
+LABEL maintainer="Matt Newell <newell@clearbit.com>"
 LABEL com.github.actions.name="GitHub Action for SFDX"
 LABEL com.github.actions.description="Wraps the SFDX CLI to enable common create/deploy commands."
 LABEL com.github.actions.icon="cloud-lightning"
