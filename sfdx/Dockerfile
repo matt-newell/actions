@@ -34,8 +34,8 @@ RUN apt-get update \
 
 # Install Salesforce DX
 RUN npm install yarn
-RUN npm install -g sfdx-cli
-RUN npm update -g sfdx-cli
+RUN npm install -g sfdx-cli-rc
+RUN npm update -g sfdx-cli-rc
 
 COPY . .
 COPY "entrypoint.sh" "/entrypoint.sh"
